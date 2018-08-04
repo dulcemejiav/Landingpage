@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Cambo|Muli|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Cambo|Marck+Script|Roboto:300,300i,400,400i,500,500i,700,700i,900');
 
 body{
 	font-family: 'Muli', sans-serif;
@@ -12,6 +12,18 @@ header{
 	padding: 20px 0;
 }
 
+.header-area.sticky{
+	box-shadow: 0 4px 10px rgb(0,0,0,0.1);
+	width: 100%;
+	height: 14%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+
+.header-area.navbar-default{
+	backgroung-color: rgba(235,235,235,1.00);
+}
 #sec-slide1{
 	padding: 220px 0px;
 	background-image: url(../img/dinner-table-444434_1920.jpg);
@@ -24,9 +36,9 @@ header{
 
 #sec-slide1 h2{
 	text-align: right;
-	margin: 0px 5px;
-	font-size: 50px;
-	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	margin: 3% 2%;
+	font-size: 58px;
+	font-family: 'Bad Script', cursive, sans-serif;
 	color:#FFFFFF;
 	font-weight: bold;
 }
@@ -37,12 +49,13 @@ h1,h2,h4{
 	text-transform: uppercase;
 }
 #sec-services{
-	padding: 40px 0px 20px 0px;
+	margin-top: 5%;
+	padding: 20px 0px;
 	text-align: justify;
 }
 
 #sec-services img{
-	padding: 20px 0px;
+	padding: 5px 0px;
 	height: auto;
 }
 
@@ -50,44 +63,27 @@ h1,h2,h4{
 	font-size: 18px;
 }
 
-#about{
-	margin: 20px 0px;
-	padding: 20px 0px 20px 0px;
-	text-align: justify;
-}
-
-#about p{
-	font-size: 18px;
-}
-
-#about img{
-	padding: 20px 0px;
-	height: auto;
-}
-
 #sec-formulario{
-	margin: 20px 0px;
+	margin-top: 3%;
+	padding: 0px 0px;
 }
 
 #sec-formulario h2{
 	text-align: center;
 	color: #432525;
 	text-transform: uppercase;
-	margin: 50px 0px 40px 0px;
-	font-weight: bold;
 }
 
 #sec-formulario p{
 	text-align: center;
 	color:#151515;
-	margin: 20px 0px 20px 0px;
 	font-size: 18px;
 }
 
 .formulario{
 	background-color: #EDEDED;
-	margin: 10px 10px;
-	padding: 25px 25px;
+	margin: 5px 5px;
+	padding: 4% 4%;
 	border-radius: 20px;
 }
 .form-group label{
@@ -106,17 +102,37 @@ h1,h2,h4{
 	border: 0.5px solid #AFAFAF;
 }
 
-#sec-outro{
-	align-items: center;
-	padding: 180px 0px;
-	background-attachment: fixed;
-	background-image: url(../img/1425570682_gra.jpg);
-	margin: 80px 0px;
+#about{
+	margin-top: 5%;
+	padding: 10px 0px 0px;
+	text-align: justify;
 }
 
+#about p{
+	font-size: 18px;
+}
+
+#sec-outro{
+	align-items: center;
+	background-attachment: fixed;
+	background-color: #062C33;
+	height: auto;
+	margin: 5% 0%;
+	text-align: center;
+}
+#sec-outro h2{
+	color: rgba(255,255,255,1.00);
+	padding: 30px 0px;
+}
+
+#sec-outro p{
+	color: white;
+	font-size: 16px;
+}
 #sec-linkmenu{
 	text-align: center;
-	padding: 15px 0px 25px 0px;
+	margin-top: 2%;
+	padding: 10px 0px 0px 0px;
 }
 #sec-linkmenu p{
 	text-transform: uppercase;
@@ -140,6 +156,16 @@ h1,h2,h4{
 	border-color: #432525;
 	color: white;
 	margin: 20px 0px;
+}
+
+#direccion{
+	margin-top: 5%;
+	padding: 0px 0px;
+	text-align: justify;
+}
+
+#direccion p{
+	font-size: 18px;
 }
 
 footer{
@@ -166,5 +192,5 @@ i{
 }
 #map{
 	width:100%;
-	height:400px;
+	height:auto;
 }
